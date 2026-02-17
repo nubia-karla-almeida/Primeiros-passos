@@ -5,7 +5,10 @@ dados=read.csv("dados_teste.csv", header=TRUE, sep=";", dec=".")
 head(dados)
 
 # Estatísticas descritivas
+min_idade=min(dados$idade)
+max_idade=max(dados$idade)
 media_idade=mean(dados$idade)
+desv_pad=sd(dados$idade)
 dist_freq_sexo=table(dados$sexo)
 
 # Fazer um barplot
