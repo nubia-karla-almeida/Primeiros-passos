@@ -7,3 +7,6 @@ head(dados)
 # Estatísticas descritivas
 media_idade=mean(dados$idade)
 dist_freq_sexo=table(dados$sexo)
+
+# Fazer um barplot
+barplot(table(dados$sexo),main = "Distribuição das pessoas por sexo", xlab = "Sexo", ylab = "Frequência")
