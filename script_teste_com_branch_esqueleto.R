@@ -13,3 +13,7 @@ dist_freq_sexo=table(dados$sexo)
 
 # Fazer um barplot
 barplot(table(dados$sexo),main = "Distribuição das pessoas por sexo", xlab = "Sexo", ylab = "Frequência")
+
+# Fazer histograma da idade 
+
+hist(dados$idade)
